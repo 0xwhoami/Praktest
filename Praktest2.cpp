@@ -2,25 +2,10 @@
 
 using namespace std;
 
-int main () {
-	int temp;
+int main() {
+	unsigned long long int a, b, c;
 
-	cin >> temp;
+	cin >> a >> b >> c;
 
-	switch (temp) {
-		case 1:
-			cout << "satu" << endl;
-			break;
-
-		case 2:
-			cout << "dua" << endl;
-			break;
-
-		case 3:
-			cout << "tiga" << endl;
-			break;
-
-		default:
-			cout << "Bilangan lebih besar dari tiga" << endl;
-	}
+	cout << a*b*c << endl;
 }
